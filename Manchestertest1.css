@@ -2,29 +2,31 @@ body {
 	font-family: 'Zilla Slab', serif;
 	font-weight: bolder;
 	text-align:center;
-	background-image: url("Manchesterimage.jpg");
+	background-image: url("#");
 	background-size: cover;
 }
 
 div#pagecontainer {
 	padding: 50px;
-	border: 50px solid #000;
+	border: 5px solid #000;
 	margin:10px;	
 	overflow: hidden;
 	
 }
 
 h1 {
-	background-color: pink;
 	text-align: center
 	color:blue;
+	background-color:pink;
+	margin:400px auto
+	;
 }
 
 div#carouselcontainer {
 margin:0px auto;
 border: solid 5px #000;
 text-align: center;
-height:1000px
+height:400px;
 }
 
 
@@ -58,6 +60,15 @@ height:300px;
 float:left;
 color:yellow; 
 }
+div#section5 {
+background-color: yellow;
+padding: 20px;
+margin:20px;
+width: 500px;
+height:450px;
+float:left;
+color:yellow; 
+}
 
 .imgsize {
 	width:300px;
@@ -77,4 +88,40 @@ color:yellow;
 .teaserbg3 {
 	background-image: url("http://rossorestaurants.com/wp-content/themes/rosso-2017/assets/images/table.jpg");
 	background-size: contain;
+}
+
+
+.teaserbg4 {
+	background-image: url("downloadmanchester.jpg");
+	background-size: contain;
+}
+.content{
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
 }
