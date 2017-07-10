@@ -1,5 +1,8 @@
+body{
+	font-family: 'Zilla Slab', serif;
+}
 
-div#pagecontainer {
+#pagecontainer {
 	background-color: #f9d8fb;
 	padding: 50px;
 	border: 5px solid #000;
@@ -11,7 +14,7 @@ h1 {
 	text-align: center;
 }
 
-div#carouselcontainer {
+#carouselcontainer {
 background-color: brown;
 margin:0px auto;
 border: solid 5px #000;
@@ -19,7 +22,7 @@ text-align: center;
 height:400px;
 }
 
-div#section2 {
+#section2 {
 background-color: purple;
 padding: 20px;
 margin:20px;
@@ -30,7 +33,7 @@ float:left;
 overflow: hidden;
 }
 
-div#section3 {
+#section3 {
 background-color: pink;
 padding: 20px;
 margin:20px;
@@ -40,7 +43,7 @@ border: solid 5px #000;
 float:left;
 }
 
-div#section4 {
+#section4 {
 background-color: yellow;
 padding: 20px;
 margin:20px;
@@ -53,6 +56,4 @@ float:left;
 .imgsize {
 	width:300px
 	height:300px;
-}
-
 }
