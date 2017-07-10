@@ -3,12 +3,16 @@ html {
 	width: 100%;
 }
 body {
-	height: 100%;
-	width: 70%;
 	font-family: 'Zilla Slab', serif;
 	color: black;
-	font-size: 120%;
+	font-size: 20px;
 	margin: 0 auto;
+	text-align: center;
+}
+@media (max-width: 500px) {
+	body {
+		font-size: 15px;
+	}
 }
 h1 {
 	height: 100%;
@@ -23,51 +27,69 @@ p {
 	position: absolute;
 }
 a {
-	color: black;
+	color: inherit;
 	text-decoration: none;
 }
 #map{
-	width: 100%;
-	padding-bottom: 62.5%; /* 16:9 */
+	height: 100vh;
 	position: relative;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-image: url(UK_map.jpg);
+	display: inline-block;
 }
-#map > div {
-	position: absolute;
-	top: 0; bottom: 0; left: 0; right: 0;
-	color: white;
-	font-size: 24px;
-	text-align: center;
+#map > img {
+	height: 100%;
 }
 #title{
 	top: 10%;
 	left: 0%;
-	font-size: 150%;
+	font-size: 2em;
+	position: absolute;
+	text-align: left;
+}
+.title-line {
+	background-color: #477587;
+	display: inline-block;
+    margin: 3px;
+    padding: 2px 5px;
+    color: white;
+}
+.place-name{
+	position: absolute;
+	transition: transform 300ms ease-in-out;
+}
+.place-name > a{
+	margin-left: -50%;
+	margin-top: -50%;
+}
+.place-name:hover {
+	transform: scale(1.5);
 }
 #london{
-	top: 76%;
-	left: 60%;
+	color: #C22326;
+	top: 79%;
+	left: 75%;
 }
 #manchester{
-	top: 56%;
-	left: 56%;
+	color: #F37338;
+	top: 61%;
+	left: 60%;
 }
 #birmingham{
-	top: 66%;
-	left: 52%;
+	color: #FDB632;
+	top: 71%;
+	left: 62%;
 }
 #edinburgh{
-	top: 30%;
-	left: 48%;
+	color: #027878;
+	top: 38%;
+	left: 54%;
 }
 #exeter{
-	top: 84%;
-	left: 48%;
+	color: #801638;
+	top: 87%;
+	left: 54%;
 }
 #belfast{
-	top: 44%;
-	left: 40%;
+	color: #de205d;
+	top: 51%;
+	left: 34%;
 }
