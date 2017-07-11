@@ -18,8 +18,7 @@ h1 {
 	text-align: center
 	color:blue;
 	background-color:pink;
-	margin:400px auto
-	;
+	margin:400px auto;
 }
 
 div#carouselcontainer {
@@ -61,13 +60,11 @@ float:left;
 color:yellow; 
 }
 div#section5 {
-background-color: yellow;
 padding: 20px;
 margin:20px;
-width: 500px;
-height:450px;
+width: 600px;
+height:200px;
 float:left;
-color:yellow; 
 }
 
 .imgsize {
@@ -78,7 +75,7 @@ color:yellow;
 .teaserbg1 {
 	background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/19247689_1716119145068345_5321476718176073269_n.jpg?oh=ba128005c507652e1cb644270fb8fc6f&oe=59D39BB6");
 	background-size: contain;
-}
+	}
 
 .teaserbg2 {
 	background-image: url("https://1.bp.blogspot.com/-T-vbAmQPM4c/WSyYO0FfxII/AAAAAAAAE8I/VAjrCyk_uDAR25j3IPGDj8vyN2tkYCv6gCEw/s1600/Turtle-Bay-Brixton-1.jpg");
@@ -90,14 +87,12 @@ color:yellow;
 	background-size: contain;
 }
 
-
 .teaserbg4 {
-	background-image: url("downloadmanchester.jpg");
-	background-size: contain;
+	background-image: url("welovemanchester.jpg");
+	background-size: contain; 
 }
-.content{
 
-}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -125,3 +120,35 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
+p {
+	background-color: pink
+	height:1000px;
+	width:1000px;
+	text-align:center;
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+
+
+div#section6 {
+padding: 20px;
+margin:20px;
+width: 500px;
+height:450px;
+float:left;
+}
+
+div#more {
+	float:right;
+}
+/*footer section*/
+
+footer	{
+	width:0px;
+	height:400px;
+	background-color: pink;
+	margin-top:600px
+}
+
