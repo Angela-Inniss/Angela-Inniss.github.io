@@ -38,6 +38,7 @@ height:300px;
 float:left;
 overflow: hidden;
 color:yellow; 
+border-radius: 3px;
 }
 
 div#section3 {
@@ -148,6 +149,33 @@ footer	{
 	width:0px;
 	height:400px;
 	background-color: pink;
-	margin-top:600px
+	margin-top:10000000px;
 }
 
+#foot {
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+
+div.social {
+	float:left;
+	margin:20px;
+}
+
+a.social {
+	margin:right:15px;
+
+}
+
+div.contact{
+	float:right;
+	margin-right:275px;
+	margin-top:20px;
+}
+
+input.text {
+	height:20px;
+	width:250px
+	border-radius: 3px;
+}
