@@ -31,41 +31,28 @@ height:400px;
 
 div#section2 {
 background-color: purple;
-padding: 20px;
-margin:20px;
-width: 300px;
+border: 20px solid white;
 height:300px;
-float:left;
 overflow: hidden;
 color:yellow; 
-border-radius: 3px;
 }
 
 div#section3 {
 background-color: pink;
-padding: 20px;
-margin:20px;
-width: 300px;
+border: 20px solid white;
 height:300px;
-float:left;
 color:yellow; 
 }
 
 div#section4 {
 background-color: yellow;
-padding: 20px;
-margin:20px;
-width: 300px;
+border: 20px solid white;
 height:300px;
-float:left;
 color:yellow; 
 }
 div#section5 {
 padding: 20px;
 margin:20px;
-width: 600px;
-height:200px;
-float:left;
 }
 
 .imgsize {
@@ -146,18 +133,9 @@ div#more {
 /*footer section*/
 
 footer	{
-	width:0px;
-	height:400px;
 	background-color: pink;
-	margin-top:600px;
 }
-
-#foot {
-	width:1000px;
-	height:100%;
-	margin:0 auto;
-}
-
+/*
 div.social {
 	float:left;
 	margin:20px;
@@ -179,3 +157,4 @@ input.text {
 	width:250px
 	border-radius: 3px;
 }
+*/
