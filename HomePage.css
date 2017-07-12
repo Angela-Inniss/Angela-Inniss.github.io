@@ -38,7 +38,7 @@ a {
 #map > img {
 	height: 100%;
 }
-#title{
+#title {
 	top: 10%;
 	left: 0%;
 	font-size: 2em;
@@ -52,44 +52,44 @@ a {
     padding: 2px 5px;
     color: white;
 }
-.place-name{
+.place-name {
 	position: absolute;
 	transition: transform 300ms ease-in-out;
 }
-.place-name > a{
+.place-name > a {
 	margin-left: -50%;
 	margin-top: -50%;
 }
 .place-name:hover {
-	transform: scale(1.5);
+	transform: scale(2);
 }
-#london{
-	color: #C22326;
+#london {
+	color: #06C98F;
 	top: 79%;
 	left: 75%;
 }
-#manchester{
-	color: #F37338;
+#manchester {
+	color: #EF4760;
 	top: 61%;
 	left: 60%;
 }
 #birmingham{
-	color: #FDB632;
+	color: #845F80;
 	top: 71%;
 	left: 62%;
 }
-#edinburgh{
-	color: #027878;
+#edinburgh {
+	color: #2F8BA0;
 	top: 38%;
 	left: 54%;
 }
-#exeter{
-	color: #801638;
+#exeter {
+	color: #EE8510;
 	top: 87%;
 	left: 54%;
 }
-#belfast{
-	color: #de205d;
+#belfast {
+	color: #FFD161;
 	top: 51%;
 	left: 34%;
 }

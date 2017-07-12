@@ -1,14 +1,125 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" text="text/css" href="London.css">
-	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
-	<title>Welcome!</title>
-</head>
-<body>
-	<header>
-	</header>
-	<h1>London</h1>
-		<p>Top tasty places</p>
-</body>
+<html lang="en">
+  <head>
+    <title>London</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap-social.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="London.css">
+  </head>
+  <body>
+    <ul>
+      <li class="nav"><a href="index.html">Back to map of the UK</a></li>
+      <li class="nav"><a href="contact.html">Contact us</a></li>
+      <li class="nav"><a href="#stay-connected">Stay connected</a></li>
+    </ul>
+    <div class="container">
+     <h2>London</h2><br>  
+      <div class="row">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+            <!-- Wrapper for slides -->
+         <div class="carousel-inner">
+        <div class="item active" style="width:100%; height:600px;">
+          <img src="images/london-1.jpg" alt="London 1" style="min-width: 100%; min-height: 100%;">
+        </div>
+
+        <div class="item" style="width:100%; height:600px;">
+          <img src="images/london-2.jpg" alt="London 2" style="min-width: 100%; min-height: 100%;" >
+        </div>
+
+        <div class="item" style="width:100%; height:600px;">
+        <img src="images/london-3.jpg" alt="London 3" style="min-width: 100%; min-height: 100%;">
+        </div>
+
+          </div>
+            <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="intro row">
+        <div class="col-sm-12">
+          London is a huge city full of delicious food.&nbsp;&nbsp;We've found three top treats to fill you up!
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="teaser teaserbg1 teaserstyle"> 
+           <h4 class="red-background"><a href="http://tombocafe.com/">Tombo</a></h4>
+        </div>
+         <div>
+           London's first Poké and Matcha Bar situated in Soho.&nbsp;&nbsp;Yummy sushi bowls, matcha drinks and desserts.
+         </div><br>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="teaser teaserbg2">
+          <h4 class="blue-background"><a href="http://www.barrafina.co.uk/">Barrafina</a></h4>
+        </div>
+        <div>
+           Spanish tapas has never tasted so good.
+         </div><br>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="teaser teaserbg3">
+          <h4 class="yellow-background"><a href="https://www.padella.co">Padella</a></h4>
+        </div>
+         <div>
+           Pasta, pasta and more perfect pasta.
+        </div><br>
+        </div>
+      </div>
+      <div id="section5" class="row">
+        <h3>A lively London video</h3>
+        <div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/PtWeqZsuzpE?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+        </div>  
+        <div>
+        <h5><br>There are lots more London tasties<br>
+        <a class="btn btn-info btn-lg" href="https://www.tripadvisor.co.uk/Restaurants-g186338-London_England.html">For more restaurant ideas, click here</a></h5>
+        </div>
+      </div>
+      <div class="row" id="stay-connected">
+        <div class="col-sm-12 social"><h6>Stay connected<h6>
+          <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com">
+            <span class="fa fa-facebook"></span>
+          </a>
+          <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/?hl=en">
+            <span class="fa fa-instagram"></span>
+          </a>
+          <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/?lang=en-gb">
+            <span class="fa fa-twitter"></span>
+          </a>
+          <a class="btn btn-social-icon btn-pinterest" href="https://www.pinterest.com">
+            <span class="fa fa-pinterest"></span>
+          </a>
+          <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com">
+            <span class="fa fa-linkedin"></span>
+          </a>
+        </div>
+      </div>  
+    </div>
+  </body>
 </html>

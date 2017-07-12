@@ -1,14 +1,140 @@
-html {
-	height: 100%;
-	width: 100%;
-}
 body {
-	height: 100%;
-	width: 100%;
 	font-family: 'Zilla Slab', serif;
-	font-style: bold;
+	font-weight: bolder;
+	text-align: center;
+	background-image: url("#");
+	background-size: cover;
+	color: #845F80;
+	font-size: 18px;
 }
 a {
-	color: black;
+	color: inherit;
 	text-decoration: none;
+}
+a:hover {
+	color: inherit;
+	text-decoration: none;
+}
+#pagecontainer {
+	padding: 50px;
+	border: 5px solid #000;
+	margin: 10px;	
+	overflow: hidden;
+}
+h1 {
+	text-align: center
+	background-color: pink;
+	margin: 400px auto;
+}
+h2 {
+	font-size: 80px;
+	color: #845F80;
+}
+h3 {
+	font-size: 40px;
+	color: #477587;
+}
+h4 {
+	font-size: 30px;
+	color: white;
+}
+h5 {
+	font-size: 20px;
+	color: #477587;
+}
+h6 {
+	color: #477587;
+	font-size: 18px;
+}
+#carouselcontainer {
+	margin: 0px auto;
+	border: solid 5px #000;
+	text-align: center;
+	height: 400px;
+}
+.intro {
+	margin: 30px 0;
+}
+.btn {
+	margin: 10px 0;
+}
+#section5 {
+	padding: 20px;
+	margin: 20px;
+}
+.imgsize {
+	width: 300px;
+	height: 300px;
+}
+.teaser {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	padding: 10px 15px;
+    margin: 20px 0;
+}
+.teaserbg1 {
+	background-image: url("http://i.telegraph.co.uk/multimedia/archive/02810/adams_2810940b.jpg");
+}
+.teaserbg2 {
+	background-image: url("http://i3.birminghammail.co.uk/incoming/article8671160.ece/ALTERNATES/s1200/Urban-Coffee-Company-at-BOM-17.jpg");
+}
+.teaserbg3 {
+	background-image: url("http://i3.birminghammail.co.uk/incoming/article11489082.ece/ALTERNATES/s1200/restaurants-in-Birmingham.jpg");
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #477587;
+}
+.nav {
+    float: left;
+}
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover:not(.active) {
+    background-color: #477587;
+}
+.active {
+    background-color: #477587;
+}
+p {
+	background-color: pink
+	height: 1000px;
+	width: 1000px;
+	text-align: center;
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+#section6 {
+	padding: 20px;
+	margin: 20px;
+	width: 500px;
+	height: 450px;
+	float: left;
+}
+#more {
+	float: right;
+}
+footer	{
+	background-color: pink;
+}
+.red-background {
+	background-color: #845F80;
+}
+.blue-background {
+	
+	background-color: #845F80;
+}
+.yellow-background {
+	background-color: #845F80;
 }

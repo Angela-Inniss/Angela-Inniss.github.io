@@ -1,14 +1,144 @@
-html {
-	height: 100%;
-	width: 100%;
-}
 body {
-	height: 100%;
-	width: 100%;
 	font-family: 'Zilla Slab', serif;
-	font-style: bold;
+	font-weight: bolder;
+	text-align: center;
+	background-image: url("#");
+	background-size: cover;
+	color: #06C98F;
+	font-size: 18px;
 }
 a {
-	color: black;
+	color: inherit;
 	text-decoration: none;
+}
+a:hover {
+	color: inherit;
+	text-decoration: none;
+}
+#pagecontainer {
+	padding: 50px;
+	border: 5px solid #000;
+	margin: 10px;	
+	overflow: hidden;
+}
+h1 {
+	text-align: center
+	background-color: pink;
+	margin: 400px auto;
+}
+h2 {
+	font-size: 80px;
+	color: #06C98F;
+}
+h3 {
+	font-size: 40px;
+	color: #477587;
+}
+h4 {
+	font-size: 30px;
+	color: white;
+}
+h5 {
+	font-size: 20px;
+	color: #477587;
+}
+h6 {
+	color: #477587;
+	font-size: 18px;
+}
+#carouselcontainer {
+	margin: 0px auto;
+	border: solid 5px #000;
+	text-align: center;
+	height: 400px;
+}
+.intro {
+	margin: 30px 0;
+}
+.btn {
+	margin: 10px 0;
+}
+#section5 {
+	padding: 20px;
+	margin: 20px;
+}
+.imgsize {
+	width: 300px;
+	height: 300px;
+}
+.teaser {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	padding: 10px 15px;
+    margin: 20px 0;
+}
+.teaserbg1 {
+	background-image: url("https://static1.squarespace.com/static/5507235ce4b04b97e2831efc/t/566834c0b204d55efa3d0d8f/1449669825205/_MG_6160.jpg");
+	}
+.teaserbg2 {
+	background-image: url("http://images10.postadsuk.com/2016/04/21/postadsuk.com-5-waiting-staff-needed-for-barrafina-on-drury-lane-minimum-7-20-per-hour-service-tips-waiting-amp-re.JPG");
+}
+.teaserbg3 {
+	background-image: url("http://media.immediate.co.uk/volatile/sites/2/2016/04/22486.jpg?quality=90&resize=600,315");
+}
+.teaserbg4 {
+	background-image: url("welovemanchester.jpg");
+	background-size: contain;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #477587;
+}
+.nav {
+    float: left;
+}
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav a:hover:not(.active) {
+    background-color: #477587;
+}
+.active {
+    background-color: #477587;
+}
+p {
+	background-color: pink
+	height: 1000px;
+	width: 1000px;
+	text-align: center;
+	padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+#section6 {
+	padding: 20px;
+	margin: 20px;
+	width: 500px;
+	height: 450px;
+	float: left;
+}
+#more {
+	float: right;
+}
+footer	{
+	background-color: pink;
+}
+.red-background {
+	background-color: #06C98F;
+}
+.blue-background {
+	
+	background-color: #06C98F;
+}
+.yellow-background {
+	background-color: #06C98F;
 }
